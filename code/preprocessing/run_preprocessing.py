@@ -11,9 +11,9 @@ Created on Tue Sep 28 16:43:18 2021
 import argparse, csv, pickle
 import pandas as pd
 from sklearn.pipeline import make_pipeline
-from code.preprocessing.punctuation_remover import PunctuationRemover
 from code.util import COLUMN_TWEET
 from code.util import SUFFIX_TOKENIZED
+from code.preprocessing.punctuation_remover import PunctuationRemover
 from code.preprocessing.tokenization import Tokenizer
 
 # setting up CLI
