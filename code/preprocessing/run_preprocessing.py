@@ -14,7 +14,7 @@ from sklearn.pipeline import make_pipeline
 from code.preprocessing.punctuation_remover import PunctuationRemover
 from code.util import COLUMN_TWEET
 from code.util import SUFFIX_TOKENIZED
-from code.preprocessing.tokenization import Tokenizer
+from code.preprocessing.tokenizer import Tokenizer
 
 # setting up CLI
 parser = argparse.ArgumentParser(description = "Various preprocessing steps")

@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Sun Oct 10 16:52:12 2021
+
+@author: Beck
+"""
 
 """
 Tokenize the tweet into individual words
 """
-
 from code.preprocessing.preprocessor import Preprocessor
 import nltk
 
